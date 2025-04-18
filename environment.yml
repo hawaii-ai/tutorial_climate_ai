@@ -1,6 +1,7 @@
  name: tutorial_climate_ai
     channels:
       - conda-forge
+      - pytorch
     dependencies:
       - python=3.9
       - pip
@@ -10,5 +11,5 @@
       - pytorch
       - torchvision
       - xarray 
-      - pip:
-        - -r requirements.txt # (Optional: If you have a requirements.txt file)
+        #- pip:
+        #- -r requirements.txt # (Optional: If you have a requirements.txt file)
